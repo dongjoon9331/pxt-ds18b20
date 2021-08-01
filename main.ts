@@ -43,7 +43,8 @@ namespace DS18B20 {
     export function TemperatureNumber(p: pin): number {
         // Fake function for simulator
       
-        return Math.round(Temperature(p)/10)
+        // return Math.round(Temperature(p)/10)
+        return Math.round(Temperature(p))/10
     }
     
     //% weight=10 blockId="Temperature_string" 
